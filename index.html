@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1>
+            Eventos de formularios
+        </h1>
+    </nav>
+    <main>
+        <div class="form-validacion-js">
+            <h2>
+                Validación JS
+            </h2>
+            <form id="formulario-validacion">
+                <label>Nombre
+                    <input type="text" id="input-nombre" required>
+                    <p class="aviso">El nombre debe contener más de tres caracteres</p>
+                </label>
+                <label>
+                    Apellido
+                    <input type="text" id="input-apellido" required>
+                </label>
+                <label>
+                    Edad
+                    <input type="text" id="input-edad" required>
+                </label>
+                <label>
+                    Email
+                    <input type="email" id="input-email" required>
+                </label>
+                <label>
+                    Contraseña
+                    <input type="password" id="input-contraseña" required>
+                </label>  
+                <label>
+                    <input type="submit" value="Enviar" id="input-submit">
+                </label>          
+            </form>
+        </div>
+        <div class="form-validacion-html">
+            <h2>
+                Validación HTML
+            </h2>
+            <form id="formulario-validacion-html">
+                <label>Nombre
+                    <input type="text" required minlength="3" maxlength="10" pattern="[a-zA-Z]+">
+                </label>
+                <label>
+                    Apellido
+                    <input type="text" required minlength="3" maxlength="10" pattern="[a-zA-Z]+">
+                  </label>
+                </label>
+                <label>
+                    Edad
+                    <input type="number" required min="18" max="99">
+                </label>
+                <label>
+                    Email
+                    <input type="email" required>
+                </label>
+                <label>
+                    Contraseña
+                    <input type="password" required minlength="5" maxlength="16">
+                </label>  
+                <label>                  
+                    <input type="submit" value="Enviar">                    
+                </label>          
+            </form>
+        </div>      
+    </main>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

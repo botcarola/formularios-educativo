@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 10px 10px;
+}
+
+nav{
+    display: flex;
+    color: white;
+    background-color: rgb(4, 58, 4);
+    font-size: 50px;
+    justify-content: center;
+}
+
+.largo{
+    background-color: rgb(73, 0, 0);
+    margin: 50px 0px;
+    color: white;
+}
+
+.parrafo-intermedio{
+    background-color: rgb(2, 2, 44);
+    display: none;
+    margin: 50px 0px;
+    color: white;
+}
+
+.parrafo-breve{
+    background-color: rgb(36, 4, 66);
+    display: none;
+    margin: 50px 0px;
+    color: white;
+}

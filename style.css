@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+nav{   
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-validacion-js, .form-validacion-html{
+    margin: 10px;
+}
+
+form{
+    width: 20rem;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid grey; 
+    padding: 20px;  
+}
+
+label{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#input-submit{
+    width: 5rem;
+   
+}
+
+.aviso{
+    display: none;
+}
+
